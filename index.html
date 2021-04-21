@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <meta charset="UTF-8"> <!--Character set for the website-->
+        <meta name="description" content="This is an awesome website"> <!--Description of the website-->
+        <meta name="author" content="Zeerak">
+        <meta name="keywords" content="HTML, Tutorial, Review">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Reviewing HTML</title> <!--Creates tab title for website-->
+    </head>
+    
+    <body style="background-color: blanchedalmond;"> <!--Properties for the webpage-->
+        
+        <h2><i>Zeerak's Website</i></h2> <!--Creates a header for the website-->
+        <hr/> <!--Creates horizontal line across webpage-->
+        <p><b>This is a revision of how to make a paragraph</b></p> <!--Creates a paragraph-->
+        <br> <!--Adds a break line after previous command or tag-->
+        Life is a journey. <!--Normally displays what is written-->
+        <br><big>This creates huge text</big>
+        <br><small>This creates small text</small>
+        <p>H<sub>2</sub>O</p> <!--adds subscipt to text, can be used for math and other science courses-->
+        <p>10<sup>2</sup></p> <!--adds a superscript to text-->
+        <p style="color:blue; background-color:aqua">Attributes for this paragraph</p>
+        
+        <br><br>
+        <!--Page Formatting Commands/Tags-->
+        <header>
+            <nav></nav> <!--navigation links and nav stuff in this tag-->
+        <main>
+            <article> <!--Creates an article, typically used for blogs,etc..-->
+                <section> <!--Section container-->
+                    <h3>First Section</h3>
+                    My name is Zeerak, what is your name?
+                    <aside>
+                        Side info using an aside tag, not related to any content in first section.
+                    </aside>
+                </section>
+            </article>
+        </main>
+
+        <footer>
+
+        </footer>    
+        </header>
+
+        <br><br>
+        <!--Links-->
+        <a href="https://www.google.com"><h4>Google Homepage</h4></a> <!--creates link for a website-->
+        <a href="https://www.youtube.com" target="_blank"><h4>Youtube Homepage</h4></a> <!--creates link for a website, but opens in new tab-->
+        <a href="page2.html">link to page 2 of this webpage</a>
+        <br><br>
+        <a href="dir_1/page3.html">link to page 3 which is in a file called dir_1 </a>
+        <br><br>
+        <a href="images/Patrick Thompson.PNG">link to image of Patrick Thompson</a>
+    <hr>
+        <br><br>
+        <!--Images-->
+        <a href="https://media.tenor.com/images/cf0aa371a1600457ed444f29b134b498/tenor.gif"> <!--Makes image clickable-->
+        <img src="https://media.tenor.com/images/cf0aa371a1600457ed444f29b134b498/tenor.gif" alt="Peepo Giggle"/> <!--goes to image link, if image doesn't appear alt tag is backup-->
+        </a>
+        <img width="200" height="200" src="images/Patrick Thompson.PNG" alt="Picture of thompson on webpage baby!"/> <!-- adjusts picture width and height-->
+    <hr>
+        <br><br>
+        <!--Video and Youtube iFrames-->
+        <video src="videos/2021-04-10 22-39-36.mp4" poster="images/Pressure Transducer Prototype (Team 733-A).png"controls width="300">Video of me demonstrating Pressure Transducer</video>
+        <!--poster tag/command adds thumbnail to video-->
+        <!--Command called "autoplay" can be used to automatically play video when webpage is opened-->
+        <!--"loop" is a command that can restart video automatically-->
+    
+        <!--YouTube Video iFrame feature-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/pQN-pnXPaVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- ^this is the guy who helped me review html-->
+    <hr>
+        <br><br>
+        <!--Lists-->
+        <ul> <!--Unorganized List-->
+            <li>Apples</li>
+            <li>Oranges</li>
+            <li><a href="#">Bananas</a></li> <!--Each listed item can be hyperlinked as well-->
+        </ul>
+
+        <ol> <!--Organized/Ordered List-->
+            <li>Apples</li>
+            <li>Oranges</li>
+            <li><a href="#">Bananas</a></li> <!--Each listed item can be hyperlinked as well-->
+        </ol>
+
+        <ol type="a"> <!--Can specify parameters for lists. You can do: a,A,i,I,1,etc..-->
+            Who was born in Australia?
+           <br><br>
+            <li>Zeerak</li>
+            <li>Zunaira</li>
+            <li>Zafar</li>
+            <li>Qudsia</li>
+        </ol>
+
+        <ol> <!--Can have list inside of list, "nested list"-->
+            <li>what is life</li>
+            <ol type="I">
+                <li>good</li>
+                <li>bad</li>
+            </ol>
+        </ol>
+
+        <dl> <!--Description List-->
+        <dt>Apples</dt>
+        <dd>- They are red.</dd>
+        <br>
+        <dt>Oranges</dt>
+        <dd>- They are orange.</dd>
+        </dl>
+<hr>
+        <br>Table Learning time<br><br>
+        <!--Tables-->
+        <table>
+            <thead>
+            <caption><h2>Table of Numbers</h2></caption> <!--Table Caption-->
+            <tr>
+                <th>Num1</th> <!--Tables headers-->
+                <th>Num2</th>
+                <th>Num3</th>
+            </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>one</td> <!--"<td>" is table data-->
+                    <td>two</td>
+                    <td>three</td>
+                </tr>
+                
+                <tr>
+                    <td>four</td>
+                    <td>five</td>
+                    <td>six</td>
+                </tr
+            </tbody>   
+
+            <table> <!--This one shows table properties-->
+                <thead>
+                <caption><h2>Table of Numbers</h2></caption> <!--Table Caption-->
+                <tr>
+                    <th>Num1</th> <!--Tables headers-->
+                    <th>Num2</th>
+                    <th>Num3</th>
+                </tr>
+                </thead>
+    
+                <tbody>
+                    <tr>
+                        <td colspan="2">one</td> <!--"<colspan"2">" Takes 2 columns to display, can be altered-->
+                        <td>two</td>
+                        <td>three</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>four</td>
+                        <td>five</td>
+                        <td>six</td>
+                    </tr
+                </tbody>
+        </table>
+<hr>
+        <br>    
+        <!--Divs and Spans--> 
+        <span>span1</span> <!--Spans are in-line containers-->
+        <span>span2</span>
+        <br><br>
+        <div>div1</div> <!--divs are block containers-->
+        <div>div2</div>
+
+        <!--Input and Forms-->
+        <input type="text" />
+        <input type="password"/>        
+        <input type="text" value="Enter any word"/> 
+        <textarea rows="10" cols="30">
+    Enter a paragraph
+        </textarea>
+        <input type="date"/>
+        <input type="range"/>
+        <input type="email"/>
+        <input type="file"/>
+        <input type="checkbox"/>
+        <input type="checkbox"/>
+        <input name="button" type="radio"/>
+        <input name="button" type="radio"/>
+        <input type="submit"/>
+        <!--much more input types..-->
+        <br><br>
+        <form>
+            <input type="text"><input type="submit">
+        </form>
+
+        <!--iFrames..-->
+        <iframe src="https://www.amazon.ca"></iframe>
+        
+    </body>
+</html>
